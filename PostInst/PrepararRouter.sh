@@ -11,6 +11,9 @@
 # Segmentación predeterminada: intdmz, intlan, intiot, intgst e intlanvpn.
 # Política: aislar redes internas entre sí; salida a WAN y VPN a su propia zona.
 #
+# Ejecución remota:
+#  curl -sL https://raw.githubusercontent.com/nipegun/debian-router-firewall-scripts/refs/heads/main/PostInst/PrepararRouter.sh | bash
+#
 # Debian 11: IPTables + ISC DHCP Server.
 # Debian 12: NFTables + ISC DHCP Server.
 # Debian 13: NFTables + Kea DHCP.
